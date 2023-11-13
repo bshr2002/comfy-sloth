@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICONS COUT cdn -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;700;900&family=Jomhuria&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@400;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>ComfySloth</title>
+    <!-- css file normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <!-- start nav -->
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.svg" alt="">
+            </a>
+            <ul class="nav-menu share-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+            </ul>
+            <div class="ser share-ser">
+                <a class="cart" href="cart.html">
+                    <span>0</span>
+                    <i class="uil uil-shopping-cart-alt"></i>
+                    <span class="cart-text">Cart</span>
+                </a>
+            </div>
+            <button type="button" class="nav-toggle">
+                <i class="uil uil-bars"></i>
+            </button>
+        </div>
+        <aside>
+            <div class="aside-nav">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.svg" alt="">
+                </a>
+                <button type="button" class="nav-toggle">
+                    <i class="uil uil-multiply"></i>
+                </button>
+            </div>
+            <ul class="nav-menu share-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+        </ul>
+        <div class="ser share-ser">
+            <a class="cart" href="cart.html">
+                <span>0</span>
+                <i class="uil uil-shopping-cart-alt"></i>
+                <span class="cart-text">Cart</span>
+            </a>
+        </div>
+        </aside>
+    </nav>
+    <!-- end nav -->
+    <!-- start page-hero -->
+    <section class="page-hero">
+        <div class="container page-hero-container">
+            <h3>
+                <a href="index.html">Home</a>
+                /
+                Cart
+            </h3>
+        </div>
+    </section>
+    <!-- end page-hero -->
+    <div class="container cart-container">
+        <div class="cart-header">
+            <h5>Item</h5>
+            <h5>Price</h5>
+            <h5>Quantity</h5>
+            <h5>Subtotal</h5>
+        </div>
+        <hr class="divide">
+        <div class="cart-content">
+        </div>
+        <hr class="divide">
+        <div class="shopping-level">
+            <a href="products.html"><button type="button" class="btn">Continue Shopping</button></a>
+            <button type="button" class="clr-cart">Clear Shopping Cart</button>
+        </div>
+        <div class="cart-total">
+            <div class="content">
+                <div class="bill">
+                    <div class="subtotal-bill">
+                        <h5>Subtotal:</h5>
+                        <p>
+                            ...
+                        </p>
+                    </div>
+                    <div class="fee-bill">
+                        <h5>Shopping Fee:</h5>
+                        <p>
+                            $5.43
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="total">
+                        <h2>Order Total:</h2>
+                        <p>...</p>
+                    </div>
+                </div>
+                <button class="btn" type="button">Payment</button>
+            </div>
+        </div>
+    </div>
+    <!-- start footer -->
+    <footer>
+        <h5>© 2023 <span><a href="index.html">Comfy Sloth</a> All Right Reversed</span></h5>
+    </footer>
+    <!-- end footer -->
+    <script src="main.js"></script>
+    <script src="javascript/cart.js" type="module"></script>
+</body>
+</html>
